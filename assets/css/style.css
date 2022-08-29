@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkslategray;
+    padding: 3rem 10rem;
+}
+section {
+    background-color: #fff;
+    padding: .2rem .2rem;
+    position: relative;
+    height: 315px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: .2rem;
+    transition: left 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.box1 {
+    background-color: red;
+    transition-timing-function: ease-out;
+
+}
+.box2 {
+    background-color: green;
+    top: 106px;
+    transition-timing-function: ease-in;
+}
+.box3 {
+    background-color: blue;
+    top: 210px;
+    transition-timing-function: ease-in-out;
+}
+
+section:hover .box1 {
+    left: 89%;
+}
+section:hover .box2 {
+    left: 89%;
+    
+}
+section:hover .box3 {
+    left: 89%;
+    
+}
