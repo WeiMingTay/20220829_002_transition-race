@@ -30,6 +30,7 @@ div {
 }
 .box {
 	background-color: yellow;
+	color: #000;
 	transition-timing-function: ease;
 }
 .box1 {
