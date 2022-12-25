@@ -9,20 +9,26 @@ body {
 }
 section {
 	background-color: #fff;
-	padding: 0.2rem 0.2rem;
-	position: relative;
+	padding: 1rem 0.2rem;
+	
+	width: 100%;
+	border: 10px solid hotpink;
 }
 div {
 	width: 100px;
 	height: 100px;
 	position: relative;
-	left: 0.2rem;
-	transition: left 3s;
+	left: 1rem;
+	
+	transition: left 3000ms;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
 	gap: 1rem;
+	
+	
+	
 }
 .box0 {
 	background-color: hotpink;
@@ -54,7 +60,9 @@ section:hover .box,
 section:hover .box1,
 section:hover .box2,/*  */
 section:hover .box3 {
-	left: 89%;
+	left: 90%;
+	
+
 }
 /* section:hover .box1 {
 	left: 89%;
